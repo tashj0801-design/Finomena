@@ -1,0 +1,27 @@
+# Glossary
+
+- **Corpus:** collection of text documents used for training.
+- **Tokenizer:** mapping from text units to integer IDs.
+- **Vocabulary:** set of characters or tokens the tokenizer knows.
+- **Token ID:** integer representation of a character.
+- **Context length:** maximum number of previous characters the model sees.
+- **Embedding:** learned vector representing a character or position.
+- **Logit:** unnormalised score for a possible next character.
+- **Softmax:** converts scores into a probability distribution.
+- **Attention:** mechanism for combining information from earlier positions.
+- **Query / key / value:** learned views used to select and mix prior context.
+- **Causal mask:** blocks attention to future characters.
+- **Parameter:** learned numeric value in a model.
+- **Gradient:** derivative that indicates how a parameter affects loss.
+- **Loss:** scalar training objective measuring prediction error.
+- **Perplexity:** exponential of mean negative log likelihood; here measured per character.
+- **Step:** one optimizer update.
+- **Batch:** several training windows processed together.
+- **Learning rate:** scale of optimizer parameter updates.
+- **Overfitting:** fitting training examples while generalizing poorly.
+- **Inference:** using a trained model without changing its weights.
+- **Latency:** time required for an operation.
+- **Throughput:** amount processed per unit time.
+- **Temperature:** scales generation logits before sampling; lower is more peaked.
+- **Top-k:** optional generation filter retaining the k highest-logit choices.
+- **Checkpoint:** saved weights and metadata needed to reload a model.
