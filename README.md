@@ -12,7 +12,7 @@ production financial service. Generated text can be inaccurate or nonsensical.
 ## Windows PowerShell quick start
 
 ```powershell
-py -3.10 -m venv .venv
+python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install --upgrade pip
 pip install -r requirements.txt
